@@ -57,10 +57,10 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         // Apparently just removing the WebView and putting it back fixes cursor hover issues
-        parent = binding.webview.removeFromParent()
-        if (binding.webview.parent == null) {
-            parent?.addView(binding.webview)
-        }
+        //parent = binding.webview.removeFromParent()
+        //if (binding.webview.parent == null) {
+        //    parent?.addView(binding.webview)
+        //}
     }
 
 }
