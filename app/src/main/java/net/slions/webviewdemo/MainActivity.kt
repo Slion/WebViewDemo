@@ -46,7 +46,12 @@ class MainActivity : AppCompatActivity() {
         }
         // Load the content
         //binding.webview.loadUrl("https://raw.githubusercontent.com/views-widgets-samples/assets/index.html")
-        binding.webview.loadUrl("https://slions.net")
+        //binding.webview.loadUrl("https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_global_spellcheck")
+        //binding.webview.loadUrl("https://annuel.framapad.org/p/anything")
+        //binding.webview.loadUrl("https://stackoverflow.com")
+        binding.webview.loadUrl("https://webglsamples.org/aquarium/aquarium.html")
+
+        //binding.webview.loadUrl("view-source:https://slions.net")
     }
 
     override fun onPause() {
@@ -61,6 +66,8 @@ class MainActivity : AppCompatActivity() {
         //if (binding.webview.parent == null) {
         //    parent?.addView(binding.webview)
         //}
+
+        //binding.webview.requestFocus()
     }
 
 }
